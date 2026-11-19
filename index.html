@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>9-Slice Studios</title>
+<meta name="description" content="9-Slice Studios is an independent studio making games and apps: Wagon Party on Roblox and FitFuel, a food log and workout tracker.">
+<meta name="application-name" content="9-Slice Studios">
+<meta property="og:site_name" content="9-Slice Studios">
+<meta property="og:title" content="9-Slice Studios">
+<meta property="og:description" content="An independent studio making games and apps.">
+<meta name="theme-color" content="#F3F3F1">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%2323272B'/%3E%3Cg fill='%23F3F3F1'%3E%3Crect x='14' y='14' width='10' height='10' rx='2'/%3E%3Crect x='27' y='14' width='10' height='10' rx='2'/%3E%3Crect x='40' y='14' width='10' height='10' rx='2'/%3E%3Crect x='14' y='27' width='10' height='10' rx='2'/%3E%3Crect x='27' y='27' width='10' height='10' rx='2' fill='%238FC4B1'/%3E%3Crect x='40' y='27' width='10' height='10' rx='2'/%3E%3Crect x='14' y='40' width='10' height='10' rx='2'/%3E%3Crect x='27' y='40' width='10' height='10' rx='2'/%3E%3Crect x='40' y='40' width='10' height='10' rx='2'/%3E%3C/g%3E%3C/svg%3E">
+<style>
+/* The company page for 9-Slice Studios. One static file, no scripts, no tracking. Same calm, flat look as FitFuel. */
+:root {
+  --paper: #F3F3F1; --card: #FFFFFF; --soft: #E9E9E6; --ink: #23272B; --muted: #5A6066; --accent: #2F6B5B; --on-accent: #FFFFFF; --focus: #2B6CB0;
+  color-scheme: light dark;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --paper: #131415; --card: #1D1F21; --soft: #282A2D; --ink: #ECEBE8; --muted: #A0A4A8; --accent: #8FC4B1; --on-accent: #14201C; --focus: #90B8E0; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; overflow-x: hidden; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.55 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+.wrap { max-width: 44rem; margin: 0 auto; padding: max(2.5rem, env(safe-area-inset-top)) 1rem 3rem; }
+.brand { display: flex; align-items: center; gap: 0.75rem; }
+.mark { width: 2.75rem; height: 2.75rem; border-radius: 0.75rem; flex: none; }
+.brand b { font-size: 1.125rem; font-weight: 700; letter-spacing: -0.01em; }
+h1 { margin: 2rem 0 0.5rem; font-size: clamp(1.75rem, 6vw, 2.5rem); line-height: 1.15; font-weight: 700; letter-spacing: -0.02em; text-wrap: balance; }
+.lede { margin: 0 0 2rem; color: var(--muted); font-size: 1.0625rem; max-width: 34rem; }
+h2 { margin: 2.25rem 0 0.75rem; font-size: 0.875rem; font-weight: 600; color: var(--muted); }
+.card { display: block; background: var(--card); border-radius: 0.875rem; padding: 1.125rem; margin-bottom: 0.75rem; color: inherit; text-decoration: none; }
+.card h3 { margin: 0 0 0.25rem; font-size: 1.0625rem; font-weight: 600; }
+.card p { margin: 0; color: var(--muted); font-size: 0.9375rem; }
+.card .go { display: inline-block; margin-top: 0.75rem; color: var(--accent); font-weight: 600; font-size: 0.9375rem; }
+a.card:focus-visible, a:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 0.5rem; }
+a { color: var(--accent); }
+.contact { background: var(--soft); }
+footer { margin-top: 2.5rem; color: var(--muted); font-size: 0.8125rem; }
+footer a { color: inherit; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="brand">
+    <svg class="mark" viewBox="0 0 64 64" role="img" aria-label="9-Slice Studios"><rect width="64" height="64" rx="15" fill="#23272B"/><g fill="#F3F3F1"><rect x="14" y="14" width="10" height="10" rx="2"/><rect x="27" y="14" width="10" height="10" rx="2"/><rect x="40" y="14" width="10" height="10" rx="2"/><rect x="14" y="27" width="10" height="10" rx="2"/><rect x="27" y="27" width="10" height="10" rx="2" fill="#8FC4B1"/><rect x="40" y="27" width="10" height="10" rx="2"/><rect x="14" y="40" width="10" height="10" rx="2"/><rect x="27" y="40" width="10" height="10" rx="2"/><rect x="40" y="40" width="10" height="10" rx="2"/></g></svg>
+    <b>9-Slice Studios</b>
+  </div>
+
+  <h1>Games and apps, made with care.</h1>
+  <p class="lede">9-Slice Studios is an independent studio. We build games people play together and tools people use every day.</p>
+
+  <h2>What we make</h2>
+  <a class="card" href="https://www.roblox.com/games/139959827210723">
+    <h3>Wagon Party</h3>
+    <p>A trail adventure on Roblox. Load the wagon, pick your crew and see how far west you can get together.</p>
+    <span class="go">Play on Roblox</span>
+  </a>
+  <a class="card" href="fitfuel/">
+    <h3>FitFuel</h3>
+    <p>A food log and workout tracker that works offline and needs no account. Log meals, follow your workouts and plan your body composition.</p>
+    <span class="go">Open FitFuel</span>
+  </a>
+
+  <h2>Contact</h2>
+  <div class="card contact">
+    <h3>Get in touch</h3>
+    <p>Questions, support or business: <a href="mailto:hello@9-slicestudios.com">hello@9-slicestudios.com</a></p>
+  </div>
+
+  <footer>
+    <p>© 2026 9-Slice Studios · <a href="fitfuel/legal/privacy.html">FitFuel privacy policy</a> · <a href="fitfuel/legal/terms.html">FitFuel terms</a></p>
+  </footer>
+</main>
+</body>
+</html>
