@@ -10,22 +10,23 @@
 <meta property="og:title" content="9-Slice Studios">
 <meta property="og:description" content="An independent studio making apps people use every day.">
 <meta name="theme-color" content="#F3F3F1">
-<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%2323272B'/%3E%3Cg fill='%23F3F3F1'%3E%3Crect x='14' y='14' width='10' height='10' rx='2'/%3E%3Crect x='27' y='14' width='10' height='10' rx='2'/%3E%3Crect x='40' y='14' width='10' height='10' rx='2'/%3E%3Crect x='14' y='27' width='10' height='10' rx='2'/%3E%3Crect x='27' y='27' width='10' height='10' rx='2' fill='%238FC4B1'/%3E%3Crect x='40' y='27' width='10' height='10' rx='2'/%3E%3Crect x='14' y='40' width='10' height='10' rx='2'/%3E%3Crect x='27' y='40' width='10' height='10' rx='2'/%3E%3Crect x='40' y='40' width='10' height='10' rx='2'/%3E%3C/g%3E%3C/svg%3E">
+<link rel="icon" type="image/png" href="logo.png">
+<link rel="apple-touch-icon" href="logo.png">
 <style>
 /* The company page for 9-Slice Studios. One static file, no scripts, no tracking. Same calm, flat look as FitFuel. */
 :root {
-  --paper: #F3F3F1; --card: #FFFFFF; --soft: #E9E9E6; --ink: #23272B; --muted: #5A6066; --accent: #2F6B5B; --on-accent: #FFFFFF; --focus: #2B6CB0;
+  --paper: #F3F3F1; --card: #FFFFFF; --soft: #E9E9E6; --ink: #23272B; --muted: #5A6066; --accent: #B82A5C; --on-accent: #FFFFFF; --focus: #2B6CB0;
   color-scheme: light dark;
 }
 @media (prefers-color-scheme: dark) {
-  :root { --paper: #131415; --card: #1D1F21; --soft: #282A2D; --ink: #ECEBE8; --muted: #A0A4A8; --accent: #8FC4B1; --on-accent: #14201C; --focus: #90B8E0; }
+  :root { --paper: #131415; --card: #1D1F21; --soft: #282A2D; --ink: #ECEBE8; --muted: #A0A4A8; --accent: #FF7F90; --on-accent: #2B0A16; --focus: #90B8E0; }
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; overflow-x: hidden; }
 body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.55 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
 .wrap { max-width: 44rem; margin: 0 auto; padding: max(2.5rem, env(safe-area-inset-top)) 1rem 3rem; }
 .brand { display: flex; align-items: center; gap: 0.75rem; }
-.mark { width: 2.75rem; height: 2.75rem; border-radius: 0.75rem; flex: none; }
+.mark { width: 2.75rem; height: 2.75rem; flex: none; display: block; }
 .brand b { font-size: 1.125rem; font-weight: 700; letter-spacing: -0.01em; }
 h1 { margin: 2rem 0 0.5rem; font-size: clamp(1.75rem, 6vw, 2.5rem); line-height: 1.15; font-weight: 700; letter-spacing: -0.02em; text-wrap: balance; }
 .lede { margin: 0 0 2rem; color: var(--muted); font-size: 1.0625rem; max-width: 34rem; }
@@ -44,7 +45,7 @@ footer a { color: inherit; }
 <body>
 <main class="wrap">
   <div class="brand">
-    <svg class="mark" viewBox="0 0 64 64" role="img" aria-label="9-Slice Studios"><rect width="64" height="64" rx="15" fill="#23272B"/><g fill="#F3F3F1"><rect x="14" y="14" width="10" height="10" rx="2"/><rect x="27" y="14" width="10" height="10" rx="2"/><rect x="40" y="14" width="10" height="10" rx="2"/><rect x="14" y="27" width="10" height="10" rx="2"/><rect x="27" y="27" width="10" height="10" rx="2" fill="#8FC4B1"/><rect x="40" y="27" width="10" height="10" rx="2"/><rect x="14" y="40" width="10" height="10" rx="2"/><rect x="27" y="40" width="10" height="10" rx="2"/><rect x="40" y="40" width="10" height="10" rx="2"/></g></svg>
+    <img class="mark" src="logo.png" alt="9-Slice Studios" width="44" height="44">
     <b>9-Slice Studios</b>
   </div>
 
